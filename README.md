@@ -1,2 +1,11 @@
-# Static-Web-Library
-Web tasarım ve programlama dersim için final ödevim
+
+## Statik Kütüphane Sitesi
+
+- Bu proje Web Tasarım ve Programlama final ödevimdir.
+- Login kısmı için istediğiniz kullanıcı adını ve şifreyi yazabilirsiniz.
+- Kitap fotoğrafı yüklerken fotoğrafın formatı fark etmeksizin yükleyebilirsiniz.
+
+## Projenin Ekran Görüntüsü
+
+![](https://github.com/MatrimAl/Static-Web-Library/blob/main/web_library_gif.gif)
+
