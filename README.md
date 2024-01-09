@@ -7,5 +7,5 @@
 
 ## Projenin Ekran Görüntüsü
 
-![](https://github.com/MatrimAl/Static-Web-Library/blob/main/web_library_gif.gif)
+![](https://github.com/MatrimAl/Static-Web-Library/web_library_gif.gif)
 
