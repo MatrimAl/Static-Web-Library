@@ -1,0 +1,178 @@
+.upperMenu {
+    background-color: rgb(96, 114, 116);
+    height: 25vmin;
+    width: 100%;
+    margin: 0px;
+    z-index: 99999;
+    align-items: center;
+    padding: 3vmin;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+body{
+    
+    margin: 0px;
+    font-family: "Comic Sans MS";
+}
+.Logo{
+    background-color: blanchedalmond;
+    border-radius: 7vmin;
+    padding-left: 3vmin;
+    width: 50vmin;
+}
+#book{
+    height: 14vmin;
+   
+}
+.text{
+    
+    position: absolute;
+    margin-top: 2vmin;
+    line-height: 100%;
+    font-size: 9.5vmin;
+    display: inline;
+    pointer-events: none;
+    
+}
+.button{
+
+    font-family: "Comic Sans MS";
+    display: inline;
+    font-size: 2vmin;
+    margin: 3vmin;
+    height: 5vmin;
+    margin-right: 10vmin;
+    border-radius: 1vmin;
+    transition: 1s ease-in-out;
+    
+    
+}
+.button:hover{
+    color: rgb(96, 114, 116);
+    transform: rotate(360deg);
+  
+}
+.Login{
+    background-color: bisque;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 2vmin;
+    position: fixed;
+    margin: auto;
+    height: 45vmin;
+    width: 45vmin;
+    pointer-events: none;
+    justify-content: center;
+    text-align: center;
+    filter:opacity(0%);
+    
+}
+.input{
+    font-family: "Comic Sans MS";
+    position: relative;
+    padding: 1vmin;
+    height: 3vmin;
+    font-size: 2vmin;
+    margin-top: 10vmin;
+    border-radius: 1vmin;
+    border-width: 0vmin;
+}
+.inputButton{
+    font-size: 2vmin;
+    margin: 5vmin;
+    height: 5vmin;
+    width: 10vmin;
+    font-family: "Comic Sans MS";
+
+    border-radius: 1vmin;
+}
+.rentButton{
+    font-size: 2vmin;
+    font-family: "Comic Sans MS";
+    border-radius: 1vmin;
+    height: 4vmin; 
+    border: none;
+    width: 10vmin;
+    filter: opacity(0%) blur(3vmin);
+    transition: 0.2s ease-in-out;
+}
+.Books{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0vmin;
+    justify-content: center;
+}
+.Book{
+    background: white;
+    height: 30vmin;
+    width: 20vmin;
+    margin: 2vmin;
+    border-radius: 1vmin;
+    background-size:cover;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    color: white;
+    text-shadow: black 0vmin 0vmin 1vmin ;
+    font-size: 0vmin;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vmin;
+    background-position: center center;
+}
+.Book:hover{
+    height: 31vmin;
+    width: 21vmin;
+    margin: 1vmin;
+    font-size: 2vmin;
+    
+}
+.Book:hover .rentButton{
+    filter: opacity(100%) blur(0vmin) ;
+    
+}
+.Banner{
+    height: 25vmin;
+    width: 100%;
+    z-index: -1;
+    background-size:cover;
+    position: sticky;
+    top: 0%;
+    
+
+    background-image: url(https://uiii.ac.id/assets/images/1636690539-alfons-morales-YLSwjSy7stw-unsplash-2.jpg);
+}
+
+.Donation{
+    background-color: rgb(169, 194, 197);
+    height: 25vmin;
+    width: 65vmin;
+    border-radius: 2vmin;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    font-family: "Comic Sans MS";
+    font-size: 2.5vmin;
+}
+.imageDonation{
+    background-color: black;
+    background-size:cover;
+    
+    margin: 2vmin;
+    height: 21vmin;
+    width: 16vmin;
+    border-radius: 2vmin;
+    font-family: "Comic Sans MS";
+}
+.buttonDonation{
+    border-radius: 1vmin;
+    height: 3vmin;
+    width: 18vmin;
+    margin-top: 1vmin;
+    font-family: "Comic Sans MS";
+
+}
